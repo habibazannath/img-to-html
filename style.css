@@ -1,0 +1,439 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*---------------------------header start------------------------*/
+header{
+	padding: 20px 0;
+
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+/*-----------------------------logo------------------------------*/
+.logo{
+	width: 17%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+/*---------------------------------menu--------------------------*/
+.menu{
+	width: 77%;
+	float: right;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 15px;
+	display: block;
+	color: #000000;
+}
+.menu ul li a:hover{
+	color: #BB213D;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/************************header end************************************************/
+/******************************banner start********************************/
+.banner{
+	background-image: url(img/habiba-zannath.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 700px;
+}
+.b_content{
+	width: 50%;
+	margin-top: 150px;
+}
+.b_content h1{
+	margin: 0 0 30px;
+	font-family: sans-serif;
+	font-size: 57px;
+	font-weight: 700px;
+	color: white;
+	letter-spacing: 1px;
+}
+.b_content p{
+	margin: 0 0 38px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400px;
+	color: white;
+}
+.b_content button{
+	margin: 20px 0 0;
+	width: 250px;
+	height: 45px;
+	background-color:#911D34;
+	border: none; 
+	text-transform:uppercase;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	color: white;
+}
+.b_content button:hover{
+	background-color: white;
+	color: #911D34;
+}
+/******************************banner end********************************/
+/******************************works start********************************/
+/****************w top********************/
+.works{
+	margin-top: 50px;
+}
+.top{
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+.w_h{
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 400px;
+	color: black;
+	text-transform: uppercase;
+}
+.w_p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400px;
+	color: #9A9A9A;
+	line-height: 25px;
+}
+/*********w bttom**********/
+.bottom{}
+.single{
+	width: 27%;
+	text-align: center;
+	padding: 30px 3.15% 0;
+	float: left;
+}
+.s_image{
+	margin: 0 auto;
+	width: 50%;
+}
+.s_image img{
+	width: 100%;
+}
+.single p{
+	margin: 20px;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 700px;
+	color: #1E1E1E;
+}
+/******************************works end********************************/
+/******************************learn more start********************************/
+.learn_more{
+	background-color: #FAFAFA;
+	margin-top: 100px;
+	min-height: 425px;
+}
+/********left*********/
+.left{
+	margin-top: 75px;
+	width: 50%;
+	float: left;
+}
+.left h1{
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 400px;
+	color: black;
+	text-transform: uppercase;
+}
+.left p{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700px;
+	color: #1E1E1E;
+}
+.left button{
+	width: 170px;
+	height: 45px;
+	background-color:#911D34;
+	border: none; 
+	text-transform:uppercase;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	color: white;
+}
+.left button:hover{
+	background-color: #535B67;
+	color: #911D34;
+}
+/********right**************/
+.right{
+	margin-top: 90px;
+	width: 50%;
+	float: right;
+}
+.right video{
+	margin: 0 auto;
+	display: block;
+}
+/******************************learn more end********************************/
+/******************************features start********************************/
+.features{
+	margin-top: 100px;
+}
+/*********features top*****/
+.w_h_f{}
+/*********features bottom*****/
+.f_bttom{
+margin: 100px 0px;
+}
+.feature_item{
+	margin-right: 3%;
+	width: 30%;
+	min-height: 270px;
+	box-sizing: border-box;
+	border: 1px solid #F3F3F3;
+	text-align: center;
+	float: left;
+}
+.feature_item:hover{
+	box-shadow: 1px 1px 20px 1px;
+	border-radius: 5px;
+	transition: 1s;
+}
+.feature_item img{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 60px;
+	height: 60px;
+}
+.feature_item h2{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400px;
+	color: black;
+}
+.feature_item p{
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: 700px;
+	color: #1E1E1E;
+}
+.last-item{
+	margin-top: 50px;
+}
+.features-button{
+	text-align: center;
+	margin: 100px 0;
+}
+.features-button button{
+	width: 170px;
+	height: 45px;
+	background-color:#535B67;
+	border: none; 
+	text-transform:uppercase;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	color: #911D34;
+}
+.features-button button:hover{
+	background-color: #FFFFFF;
+	color: #911D34;
+}
+
+/******************************features end********************************/
+
+/******************************footer start********************************/
+footer{
+	background-color: #000000;
+	margin-top: 50px;
+	width: 100%;
+	min-height: 400px;
+	display: block;
+}
+/****footer top**********/
+.footer-top{}
+.footer-top h2{
+	font-size: 27px;
+	color: #BD233E;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.footer-item1{
+	margin-top: 50px;
+	width: 45%;
+	float: left;
+} 
+.footer-item1 ul li{}
+.footer-item1 ul li a{
+	color: #525C65;
+	padding: 5px 0;
+	display: inline-block;
+	font-size: 18px;
+	transition: .4s;
+	text-decoration: none;
+}
+.footer-item1 ul li a:hover{
+	color: #BD243C;
+	transition: .4s;
+}
+.footer-item1 ul li span i{
+	margin-left: -45px;
+	width: 20px;
+	font-size: 16px;
+	color: #BD243C;
+	transition: .4s;
+	padding: 15px;
+
+}
+.socialmedia{
+	margin-left: -30px;
+}
+.socialmedia ul{}
+.socialmedia ul li{
+	list-style: none;
+	float: left; 
+	margin-right: 10px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #4C5B62;
+    border-radius: 5px;
+    transition: .4s;
+}
+.socialmedia ul li:hover{
+	background-color: #BD243C;
+	transition: .4s;
+}
+}
+.socialmedia ul li{
+	color: #ffff;
+	padding: 5px 0;
+}
+.socialmedia ul li a{
+	text-decoration: none;
+	color: #ffff;
+	padding: 0px 13px;
+}
+.socialmedia ul li a:hover{
+	color: #4C5B62;
+	transition: .4s;
+}
+.footer-item2{
+	margin-top: 50px;
+	width: 20%;
+	float: left;
+}
+.b-menu{}
+.b-menu ul{}
+.b-menu ul li{
+	list-style: none;
+}
+.b-menu ul li a{
+	overflow: hidden;
+	text-decoration: none;
+	color: #4C5B62;
+	padding: 2px 0;
+	display: inline-block;
+	font-size: 16px;
+
+	transition: .4s;
+}
+.b-menu ul li a:hover{
+	color: #BD243C;
+	transition: .4s;
+}
+.b-menu ul li span i {
+	overflow: hidden;
+	margin-left: -30px;
+	color: #4C5B62;
+	font-size: 16px;
+	width: 15px;
+	rotate: -90deg;
+
+	transition: .4s;
+}
+.b-menu ul li span i:hover{
+	color: #BD243C;
+	transition: .4s;
+}
+.footer-item3{
+	margin-top: 50px;
+	margin-left: 45px;
+	width: 30%;
+	float: left;
+}
+.footer-item3 p{
+	font-family: sans-serif;
+    font-size: 16px;
+	color: #525C65;
+}
+.Email{}
+.Email input{
+	width: 160px;
+	height: 45px;
+	background: transparent;
+	font-size: 16px;
+	color: #525C65;
+	border: 1px solid #525C65;
+	padding-left: 5px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+}
+.Email button{
+	outline: none;
+	width: 150px;
+	height: 49px;
+	background: #BD233E;
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid transparent;
+	position: relative;
+	left: -5px;
+	border-radius: 0 5px 5px 0;
+}
+
+
+
+
+
+/**********footer-bttom************/
+.footer-bttom{
+	margin: 0 auto;
+	background-color: #535D69;
+	width: 100%;
+	min-height: 80px;
+	overflow: hidden;
+	display: block;
+}
+.footer-bttom p{
+	margin-top: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	text-transform: capitalize;
+}
+/******************************footer end********************************/
